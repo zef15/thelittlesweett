@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body { 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2645c;
+}
+
+
+.logo-img {
+    width: 80px;
+    border-radius: 50%;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+ul {
+    padding: 8px;
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    color: lightpink;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+
+.img-welcome {
+    padding-bottom: 40px;
+}
+
+.title1-h4 {
+    font-family: sans-serif;
+    color: lightpink;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e2645c;
+}
+
+.title-h4 {
+    font-family: sans-serif;
+    color: lightpink;
+    font-size: 40px;
+    text-align: center;
+    background-color: #e2645c;
+}
+
+.img-productos {
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+
+.img-testimonios {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.card {
+    padding: 20px;
+    align-items: center;
+    border-radius: 10px;
+    transition: 400ms;
+}
+
+.card img {
+    border-radius: 8px;
+    
+}
+
+.card2 { 
+    padding: 20px;
+    align-items: center;
+    width: 350px;
+}
+
+.card2 img {
+    border-radius: 500px;
+    padding: 13px;
+    border: 2px solid lightpink;
+    box-shadow: 0px 0px 10px #e2645c;
+    margin-bottom: 20px;
+}
+
+.card2 h5 {
+    text-align: center;
+    font-size: 25px;
+    color: #e2645c;
+    margin-bottom: 10px;
+}
+
+
+.card:hover {
+    cursor: pointer;
+    background-color: pink;
+    color: red;
+    box-shadow: 0px 0px 10px pink;
+    scale: 1.1;
+}
+
+form {
+    background-color: #e2645c;
+    height: 150px;
+}
+
+form p {
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.fakin-input {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+footer {
+    background-color: pink;
+    color: #e2645c;
+    padding: 20px;
+    text-align: center;
+}

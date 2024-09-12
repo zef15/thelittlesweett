@@ -1,0 +1,129 @@
+/* header */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body { 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+}
+
+nav {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: #e2645c;
+}
+
+
+.logo-img {
+    width: 80px;
+    border-radius: 50%;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+ul {
+    padding: 8px;
+    display: flex;
+    gap: 50px;
+}
+
+a {
+    color: lightpink;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+/* quienes somos */
+
+.quienes-somos {
+    padding: 80px;
+    margin-top: 40px;
+    margin: 20px;
+    background-color: white;
+    
+}
+
+.quienes-somos h1 {
+    color: #e2645c;
+    text-align: center;
+    font-size: 60px;
+}
+
+.quienes-somos p {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* objetivo */
+
+.objetivo {
+    padding: 80px;
+    margin-top: 40px;
+    margin: 20px; 
+    background-color: #e2645c;
+}
+
+.objetivo h2 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.objetivo p {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* valores */
+
+.valores {
+    padding: 80px;
+    margin-top: 40px;
+    margin: 20px;
+    background-color: white;
+}
+
+.valores h3 {
+    color: #e2645c;
+    text-align: center;
+    font-size: 60px;
+}
+
+.valores p {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* por que elegirnos */
+
+.elegirnos {
+    padding: 80px;
+    margin-top: 40px;
+    margin: 20px;
+    background-color: #e2645c;
+}
+
+.elegirnos h4 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.elegirnos p {
+    text-align: center;
+    font-size: 30px;
+}
+
+
